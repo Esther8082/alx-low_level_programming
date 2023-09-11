@@ -2,11 +2,11 @@
 #include <unistd.h>
 /**
  * main - this program is a c program that prints a line to the standard c
- * Return: 1 (success)
+ * Return: always (1)
  */
 
 int main(void)
 {
-fput("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
+write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 return (1);
 }
