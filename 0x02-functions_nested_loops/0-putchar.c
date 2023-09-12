@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
- * main - Entry point
- * Description: 'Prints _putchar to stdout'
- * Return: always 0
+ * main - Entry point of my code,
+ * 
+ * Return: Always 0
  */
+
 int main(void)
 {
 	_putchar('_');
@@ -15,4 +17,5 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
+	return (0);
 }
